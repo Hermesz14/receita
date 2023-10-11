@@ -1,14 +1,16 @@
-body{
+body {
     background-color: beige;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: orange;
     border-radius: 20px;
     box-shadow: 4px 4px 0 0;
 }
-h2{
+
+h2 {
     text-align: center;
     background-color: orange;
     border-radius: 5px;
@@ -16,30 +18,48 @@ h2{
     margin-right: 500px;
     box-shadow: 4px 4px 0 0 black;
 }
-img{
+
+img {
     border-radius: 20px;
     box-shadow: 4px 4px 0 0;
-    align-items: center;
     margin-right: 400px;
     margin-left: 400px;
 }
-tr, th{
+
+tr,
+th {
     background-color: orange;
     border-radius: 3px;
     text-align: center;
     align-items: center;
 }
-h3{
+
+h3 {
     background-color: orange;
     text-align: start;
     border-radius: 5px;
     box-shadow: 4px 4px 0 0 black;
     margin-right: 1000px;
 }
-.text{
+
+.text {
     font-size: 10px;
     background-color: black;
     color: white;
     border-radius: 5px;
-    margin-right: 1050px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.footer img {
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.footer img:hover {
+    background: #fffb00;
+    transition: ease-in 0.5s;
 }
